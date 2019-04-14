@@ -1,0 +1,2 @@
+2019-04-14T12:47:31+00:00 CRITICAL Object of class WP_Error could not be converted to string in /opt/bitnami/apps/wordpress/htdocs/wp-includes/formatting.php on line 4178
+
