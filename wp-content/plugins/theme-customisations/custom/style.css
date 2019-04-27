@@ -1,0 +1,18 @@
+/**
+ * Add any custom CSS here.
+ *
+ * This file will be loaded after all other theme stylesheets.
+ */
+
+ .site-header {
+ 	border-top: 0;
+ }
+
+
+ .storefront-product-section .before-product-header {
+ 	background-image: url(/wp-content/uploads/2019/04/home-main-1024x202.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    margin: -70px -183px -5px;
+    height: 360px;
+ }

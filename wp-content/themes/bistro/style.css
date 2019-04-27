@@ -43,7 +43,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Alegreya Sans", sans-serif; }
+  font-family: "Roboto Sans", sans-serif; }
 
 h1,
 h2,
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Alegreya", serif;
+  font-family: "Roboto", serif;
   font-weight: 900; }
   h1 a,
   h2 a,
@@ -62,7 +62,9 @@ h6 {
     font-weight: 900; }
 
 body {
-  background-color: #F9F4EE; }
+  background: rgb(54,117,186);
+  background-image: linear-gradient(0deg, rgba(54,117,186,1) 0%, rgba(159,189,222,1) 42%, rgba(255,255,255,1) 100%);
+}
 
 .added_to_cart,
 .button,
@@ -90,7 +92,7 @@ input[type=submit] {
   position: relative; }
 
 .footer-widgets .widget {
-  font-family: "Alegreya Sans", sans-serif; }
+  font-family: "Roboto Sans", sans-serif; }
   .footer-widgets .widget .button {
     padding: 0.3819820591em 0.875em; }
 
@@ -98,12 +100,12 @@ input[type=submit] {
  * Header
  */
 .site-header {
-  border: 0;
+  border: 0 !important;
   padding-top: 1.618em; }
   .site-header .site-branding .site-title,
   .site-header .site-branding .site-title a {
     font-weight: 900;
-    font-family: "Alegreya Sans", sans-serif; }
+    font-family: "Roboto Sans", sans-serif; }
   .site-header .site-description {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
@@ -123,14 +125,14 @@ input[type=submit] {
  * Widgets
  */
 .widget {
-  font-family: "Alegreya", serif; }
+  font-family: "Roboto", serif; }
   .widget h1,
   .widget h2,
   .widget h3,
   .widget h4,
   .widget h5,
   .widget h6 {
-    font-family: "Alegreya Sans", sans-serif; }
+    font-family: "Roboto Sans", sans-serif; }
   .widget h3.widget-title,
   .widget h2.widgettitle {
     text-transform: uppercase;
@@ -230,7 +232,7 @@ input[type=submit] {
     padding-top: 1.387em; }
     .storefront-product-section h2.section-title:before, .storefront-product-section h2.section-title:after {
       content: "";
-      display: block;
+      display: none;
       position: absolute;
       top: 0;
       left: 50%;
@@ -297,7 +299,7 @@ input[type=submit] {
       border-radius: 100%; }
 
 .sph-hero h1 {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Roboto Sans", sans-serif;
   font-weight: 900; }
 
 .sph-hero p {
@@ -940,7 +942,7 @@ ul.products li.product {
         .storefront-product-categories ul.products li.product .bistro-category-title-description-wrap h3 mark,
         .storefront-product-categories ul.products li.product .bistro-category-title-description-wrap .woocommerce-loop-product__title mark,
         .storefront-product-categories ul.products li.product .bistro-category-title-description-wrap .woocommerce-loop-category__title mark {
-          font-family: "Alegreya Sans", sans-serif;
+          font-family: "Roboto Sans", sans-serif;
           font-weight: 400; }
       .storefront-product-categories ul.products li.product .bistro-category-title-description-wrap .shop_cat_desc {
         max-height: 0px;
@@ -957,14 +959,14 @@ ul.products li.product {
 	 * Homepage
 	 */
   .page-template-template-homepage-php .type-page {
-    font-family: "Alegreya", serif; }
+    font-family: "Roboto", serif; }
     .page-template-template-homepage-php .type-page h1,
     .page-template-template-homepage-php .type-page h2,
     .page-template-template-homepage-php .type-page h3,
     .page-template-template-homepage-php .type-page h4,
     .page-template-template-homepage-php .type-page h5,
     .page-template-template-homepage-php .type-page h6 {
-      font-family: "Alegreya Sans", sans-serif; }
+      font-family: "Roboto Sans", sans-serif; }
     .page-template-template-homepage-php .type-page .entry-header h1 {
       clear: none; }
     .page-template-template-homepage-php .type-page img.wp-post-image {
@@ -1067,3 +1069,4 @@ ul.products li.product {
     content: "\f061"; }
   .storefront-2-3 .storefront-product-section:not(.storefront-product-categories) .slick-prev:before {
     content: "\f060"; } }
+
